@@ -142,4 +142,5 @@ img {
 }
 .nav_close , .nav_toggle {
     display: inline-block;
+    width: 10px;
 }
