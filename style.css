@@ -1,0 +1,48 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*==== variable css ====*/
+:root {
+--header-height: 3.5rem;
+
+/*==== Colors ====*/
+/* Colors mode HSL (hue,saturation,lightness */
+--first-color :hsl(120, 67%, 47%);
+--black-color :hsl(128, 24%, 7%);
+--white-color :hsl(104, 88%, 90%); 
+--text-color :hsl(220, 8%, 28%);
+--body-color :hsl(102, 80%, 90%);
+--shadow-img :drop-shadow (0 12px 22px hsla(0, 0%, 0%, .2));
+
+/*==== Font & Typography */
+/* .5 rem = 8px | 1 rem = 16px */
+--body-font: "Monsterrat Alternates", sans-serif;
+--second-font: "Unbounded", sans-serif;
+--biggest-font-size: 3rem;
+--bigger-font-size: 2.5rem;
+--big-font-size: 2rem;
+--h1-font-size: 1.5rem;
+--h2-font-size: 1.25rem;
+--h3-font-size: 1rem;
+--normal-font-size: .938rem;
+--small-font-size: .813rem;
+
+/*==== Font Weight */
+--font-regular: 400;
+--font-semi-bold: 600;
+--font-bold: 700;
+
+/*==== z tooltip ====*/
+--z-index: 10;
+--z-fixed: 100;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
