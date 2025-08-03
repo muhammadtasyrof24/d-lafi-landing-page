@@ -134,7 +134,7 @@ img {
     z-index: var(--z-fixed);
     transition: box-shadow .4s;
 }
-nav {
+.nav {
     position: relative;
     height: var(--header-height);
     display: flex;
@@ -193,4 +193,4 @@ nav {
 .nav_close:hover{
     color: var(--white-color);
 }
-}
+
